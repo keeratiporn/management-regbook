@@ -14,7 +14,7 @@ a:hover {
 }
 
 body {
-    padding-top: 50px;
+    padding: 0;
     width: 100%;
     background: #fff;
     position: relative;
@@ -24,19 +24,19 @@ body {
     line-height: 18px;
     letter-spacing: 0px;
     font-weight: 400;
-    font-family: 'IBMPlexSansThai','Roboto', sans-serif;
+    font-family: 'IBM Plex Sans Thai',  sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 /* Banner Logo */
-.logo {
-    width: 300px;
+.imglogo {
     height: 90px;
 }
 
 .bg-custom {
     background-color: #00247c;
+    
 }
 
 .registration-container{
@@ -93,6 +93,7 @@ body {
     .hide-mobile {
         display: none; 
     }    
+
 }
 
 @media (min-width: 992px) { 
@@ -102,9 +103,7 @@ body {
     .hide-mobile {
         display: block; 
     }
-    .small-col{
-        width: 10%;
-    }
+
 
 }
     
