@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 
 
@@ -7,12 +8,10 @@ $(document).ready(function () {
         const searchData = $("#search_registration").val().trim()
         console.log(searchData);
         if (searchData.length <= 8) {
-            let validator = new RegExp('^([a-zA-Zก-ฮ0-9]{1,3})([\ |-]{1,1})([a-zA-Zก-ฮ0-9]{1,4})$', 'gi').test(val)
-            console.log(validator);
+            
         }
 
     });
-
 
     // Search Result 
     const resultsContainer = document.getElementById("s_results");
@@ -27,7 +26,7 @@ $(document).ready(function () {
                 "sequence": "4-8",
                 "brand": "CHEVROLET",
                 "model": "COLORADO X-CAB",
-                "auction_location": "กรุงเทพมหานคร",
+                "auction_location": "ดอนเมือง",
                 "registration_status": "พร้อมรับเล่ม"
             },
             {
@@ -39,7 +38,7 @@ $(document).ready(function () {
                 "sequence": "9-10",
                 "brand": "ISUZU",
                 "model": "D-MAX",
-                "auction_location": "สำนักงานใหญ่",
+                "auction_location": "นครปฐม",
                 "registration_status": "-"
             },
             {

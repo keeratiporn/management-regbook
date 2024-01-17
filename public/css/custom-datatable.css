@@ -20,7 +20,7 @@ body {
     position: relative;
     display: inline-block;
     color: #000;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     letter-spacing: 0px;
     font-weight: 400;
@@ -46,7 +46,7 @@ body {
     margin: 10px 0px;
 }
 .registration-container.registration-title{
-    background: #0B205E;
+    background: #00247c;
     font-weight: 700;
     color: #fff;
 }
@@ -61,12 +61,12 @@ body {
     margin: 10px 10px 10px;
 }
 .registration-container .title{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     font-weight: 700;
 }
 .registration-container .desc{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     font-weight: 400;
 }
