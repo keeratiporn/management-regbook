@@ -53,8 +53,41 @@ body {
 .registration-container p{
     display: inline-block;
     width: calc(10.11% - 15px);
-    margin: 0px 5px
+    margin: 0px 3px;
 }
+
+#s_results > div > div.hide-mobile > p.large-col{
+    width: 165px;
+}
+#s_results > div:nth-child(1) > div.hide-mobile > p:nth-child(1){
+    width: 30px !important;
+}
+
+#result-registration > div > div.registration-title.registration-container.hide-mobile > p.small_col{
+    width: 30px !important;
+}
+#result-registration > div > div.registration-title.registration-container.hide-mobile > p.medium-col{
+    width: 50px !important;
+}
+#result-registration > div > div.registration-title.registration-container.hide-mobile > p.large-col{
+    width: 165px !important;
+}
+#s_results > div > div.hide-mobile > p.medium-col {
+    width: 50px !important;
+}
+p.custom-col{
+    width: 80px;
+}
+#s_results > div > div.hide-mobile > p:nth-child(5){
+    width: 80px;
+}
+p.md-col {
+    width: 90px;
+}
+#result-registration > div > div.registration-title.registration-container.hide-mobile > p:nth-child(10){
+    width: 100px;
+}
+
 .registration-container .title, .registration-container .desc{
     display: inline-block;
     width: calc(50% - 25px);

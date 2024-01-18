@@ -236,7 +236,7 @@ export const UpdateManagement = async (req, res) => {
 
                     // Check get API
                     if (update_history) {
-                        const apiUrl = 'https://regbook.sia.co.th/updateRegDate';
+                        const apiUrl = 'http://localhost:4095/updateRegDate';
 
                         const dateReceiveDate = new Date(dateReceive);
                         const dateReceiveTransDate = new Date(dateReceiveTrans);
