@@ -93,7 +93,6 @@ body {
     .hide-mobile {
         display: none; 
     }    
-
 }
 
 @media (min-width: 992px) { 
@@ -104,6 +103,23 @@ body {
         display: block; 
     }
 
-
 }
-    
+@media (max-width: 991px) {
+    footer {
+        display: none;
+    }
+}
+
+
+.swal2-popup {
+    font-size: 1rem !important;
+}
+.card {
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom:  40px;
+}
+
+
+
+
+

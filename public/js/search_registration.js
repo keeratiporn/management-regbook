@@ -5,11 +5,34 @@ $(document).ready(function () {
     // Check Format To Send 
     const btnSubmit = document.getElementById("btn-submit");
     btnSubmit.addEventListener('click', () => {
-        const searchData = $("#search_registration").val().trim()
-        console.log(searchData);
-        if (searchData.length <= 8) {
-            
-        }
+        let searchData = $("#search_registration").val().trim()
+        if(searchData.length <= 8 ){
+            let validator = new RegExp('^([a-zA-Zก-ฮ0-9]{1,3})([\ |-]{1,1})([a-zA-Zก-ฮ0-9]{1,4})$','gi').test(searchData)
+            console.log(validator);
+            if(validator != true){
+                $('#alert-message').css('display', 'block');
+                $('#result-registration').css('display' , 'none');
+            }else{
+                $('#alert-message').css('display', 'none');
+                $('#result-registration').css('display' , 'block');
+            }
+                
+            // $.ajax({
+            //     type: "PUT",
+            //     url: "url",
+            //     data: validator,
+            //     dataType: "JSON",
+            //     success: function (res) {
+            //     }
+            // });
+        }    
+        // $('#alert-message').append(
+        // `
+        //     <div class="alert alert-danger" role="alert">
+        //         ${message}
+        //     </div>
+        // `);
+        
 
     });
 
