@@ -11,8 +11,8 @@ btnSubmit.addEventListener('click', () => {
             $.ajax({
                 type: "POST",
                 ContentType: "application/json",
-                // url: "https://regbook.sia.co.th/search_vehicle_stock",
-                url: "http://localhost:4095/search_vehicle_stock",
+                url: "https://regbook.sia.co.th/search_vehicle_stock",
+                // url: "http://localhost:4095/search_vehicle_stock",
                 data: {search: searchData},
                 dataType: "JSON",
                 success: function (res) {
